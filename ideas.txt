@@ -1,0 +1,21 @@
+Password storage
+
+Web Scraping Using Beautiful Soup
+
+Chatbot
+https://www.simplilearn.com/final-year-computer-science-project-ideas-article 
+
+News Feed App
+
+Crime Rate Prediction
+
+Detection of Credit Card Fraud
+
+Movies recommendations by using Machine Learning
+
+Small video game?
+
+Contexto answer maker
+
+Video game sale finder
+
