@@ -3,10 +3,13 @@ const app = require("express")();
 const path = require("path");
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/templates", "index.html"));
+  res.sendFile(path.join(__dirname, "../client/templates", "start.html"));
 });
 
-
+// Additional route for serving "index.html"
+app.get("/index.html", (req, res) => {
+    res.sendFile(path.join(__dirname, "../client/templates", "index.html"));
+  });
 app.listen(9091, ()=>console.log("Listening on http port 9091"))
 const websocketServer = require("websocket").server
 const httpServer = http.createServer();
